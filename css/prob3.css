@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #280eea;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#home {
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+}
+
+#portfolio {
+    padding: 50px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.work-item {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.work-item:hover {
+    transform: scale(1.05); 
+}
+
+.work-item img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#contact {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #643e6b;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+form {
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label,
+form input,
+form textarea,
+form button {
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+form textarea {
+    resize: none;
+    height: 100px;
+}
+
+form button {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ddd;
+}
+

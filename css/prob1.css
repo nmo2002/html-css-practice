@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center; 
+}
+
+main {
+    font-family: 'Courier New', Courier, monospace;
+    flex: 1;
+    max-width: 800px;
+    margin: 20px auto; 
+    text-align: center; 
+}
+
+.blog-posts {
+    text-align: left; 
+}
+
+article {
+    margin-left: -600px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+article h2 {
+    text-align: left; 
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}
+
